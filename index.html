@@ -569,6 +569,33 @@
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
   transition: 0.25s ease;
 }
+.experience-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 8px 0 14px;
+}
+
+.experience-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  background: rgba(56, 189, 248, 0.1);
+  color: var(--accent);
+  transition: 0.25s ease;
+}
+
+.experience-link:hover {
+  transform: translateY(-2px);
+  background: rgba(56, 189, 248, 0.18);
+  box-shadow: var(--shadow);
+}
 
 .experience-card:hover {
   transform: translateY(-5px);
@@ -950,14 +977,11 @@ body::before {
         <div class="eyebrow">Tempe, AZ </div>
         <h1>Dilli Babu Kalluru</h1>
         <h2>
-          MS Robotics and Autonomous Systems Student |
-          <span class="highlight">Manufacturing & CAE Engineer</span>
+          MS Robotics and Autonomous Systems Graduate |
+          <span class="highlight">Mechanical Design, Robotics & CAE Background</span>
         </h2>
         <p>
-          I’m a Robotics and Autonomous Systems graduate student at Arizona State University with a background in
-          mechanical engineering, CAE analysis, manufacturing support, and quality improvement. My work focuses on
-          building reliable mechanical and robotic systems through structured design, simulation, testing, and process
-          optimization.
+         I’m a Robotics and Autonomous Systems graduate from Arizona State University with a mechanical engineering background and experience in CAE analysis, manufacturing support, and quality improvement. I enjoy building reliable mechanical and robotic systems through CAD design, simulation, prototyping, testing, and process optimization.
         </p>
 
         <div class="tag-row">
@@ -972,7 +996,6 @@ body::before {
           <a class="btn primary" href="#projects">View Projects</a>
           <a class="btn" href="mailto:dkallur2@asu.edu">Email Me</a>
           <a class="btn" href="https://www.linkedin.com/in/dillikalluru/" target="_blank">LinkedIn</a>
-          <a class="btn" href="#" target="_blank">Resume</a>
         </div>
       </div>
 
@@ -981,9 +1004,9 @@ body::before {
   <img class="profile-photo" src="profile.jpg" alt="Photo of Dilli Babu Kalluru">
 </div>
         <div class="quick-info">
-          <p><strong>Current Program:</strong> MS Robotics and Autonomous Systems</p>
+          <p><strong>Degree:</strong> MS Robotics and Autonomous Systems</p>
           <p><strong>University:</strong> Arizona State University</p>
-          <p><strong>Expected Graduation:</strong> May 2026</p>
+          <p><strong>Graduated:</strong> May 2026</p>
           <p><strong>Location:</strong> Tempe, AZ</p>
         </div>
       </aside>
@@ -993,31 +1016,24 @@ body::before {
       <div class="container">
         <div class="section-heading">
           <h2>About</h2>
-          <p>
-            Practical engineering background across design, simulation, manufacturing, validation, and robotics systems.
-          </p>
-        </div>
+ <p>
+  Robotics and Mechanical Engineering graduate with practical experience in mechanical design, CAE simulation, manufacturing quality, controls, and hands-on engineering projects.
+</p>
+<div class="about-grid">
+  <div class="card">
+    <h3>Current Focus</h3>
+    <p>
+  I recently completed my MS in Robotics and Autonomous Systems at Arizona State University, with project experience in robotic systems, controls, simulation, mechanical design, hardware testing, and automation-focused prototyping.
+    </p>
+  </div>
 
-        <div class="about-grid">
-          <div class="card">
-            <h3>Engineering Focus</h3>
-            <p>
-              I am interested in roles that combine mechanical design, simulation, manufacturing optimization,
-              robotics, and validation. My experience includes ANSYS-based structural and durability analysis,
-              SolidWorks design, process improvement, quality inspection, root cause analysis, and hands-on
-              manufacturing workflows.
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>What I Bring</h3>
-            <p>
-              I bring a practical, systems-oriented approach to engineering problems. I enjoy working at the intersection
-              of design, analysis, manufacturing, and testing, where strong documentation, clear communication, and
-              repeatable processes matter.
-            </p>
-          </div>
-        </div>
+  <div class="card">
+    <h3>Engineering Background</h3>
+    <p>
+  Before my master’s, I gained hands-on experience in manufacturing quality and CAE simulation, including production support, process improvement, ANSA-based model preparation, validation support, and automotive engineering workflows.
+    </p>
+  </div>
+</div>
 
         <div class="stat-grid">
           <div class="stat">
@@ -1029,8 +1045,8 @@ body::before {
             <span>MS GPA at Arizona State University</span>
           </div>
           <div class="stat">
-            <strong>FEA</strong>
-            <span>Stress, deformation, durability, vibration, and validation analysis</span>
+            <strong>CAE / FEA</strong>
+            <span>Stress, deformation, durability, vibration, and validation analysis using ANSA and ANSYS.</span>
           </div>
         </div>
       </div>
@@ -1041,8 +1057,7 @@ body::before {
     <div class="section-heading">
       <h2>Work Experience</h2>
       <p>
-        Practical engineering experience across teaching, CAE analysis, manufacturing support,
-        quality improvement, and production operations.
+        Practical engineering experience across mechanical systems, CAE analysis, manufacturing support, quality improvement, and production operations.
       </p>
     </div>
 
@@ -1051,7 +1066,7 @@ body::before {
         <img class="company-logo" src="asu-logo.png" alt="Arizona State University logo">
 
         <div class="experience-title">
-          <h3>Teaching Aide · Arizona State University</h3>
+          <h3>Teaching Assistant · Arizona State University</h3>
           <p>Aug 2025 – May 2026 · Tempe, AZ</p>
 
           <div class="experience-tags">
@@ -1064,7 +1079,7 @@ body::before {
       </div>
 
       <ul>
-        <li><strong>Supported</strong> MAE 202: Engineering Mechanics – Dynamics for 400+ students through recitations, grading, and academic support.</li>
+        <li><strong>Supported </strong> 400+ students in MAE 202: Engineering Mechanics – Dynamics through recitations, grading, and academic support.</li>
         <li><strong>Led</strong> structured problem-solving sessions covering kinematics, kinetics, force balance, motion, and system dynamics.</li>
         <li><strong>Graded</strong> assignments, quizzes, and exams while maintaining accurate, consistent, and timely evaluation standards.</li>
         <li><strong>Supported</strong> MAE 341: Mechanism Analysis and Design by evaluating coursework and maintaining organized grading records.</li>
@@ -1082,7 +1097,7 @@ body::before {
         </div>
 
         <div class="metric-box">
-          <strong>Grading</strong>
+          <strong>Evaluation</strong>
           <span>assignments, quizzes, and exams</span>
         </div>
       </div>
@@ -1093,8 +1108,11 @@ body::before {
         <img class="company-logo" src="greaves-logo.png" alt="Greaves Cotton logo">
 
         <div class="experience-title">
-          <h3>CAE Engineer · Greaves Cotton Ltd</h3>
+          <h3>CAE Engineer · Greaves Technologies Ltd</h3>
           <p>Jun 2023 – Jul 2024 · Chennai, India</p>
+          <a class="experience-link small-link" href="greaves-experience-letter.pdf" target="_blank">
+  Experience Letter
+</a>
 
           <div class="experience-tags">
             <span class="experience-tag">ANSA</span>
@@ -1131,6 +1149,7 @@ body::before {
         </div>
       </div>
     </div>
+    
 
     <div class="experience-card">
       <div class="experience-top">
@@ -1191,33 +1210,34 @@ body::before {
             <div class="project-header">
               <div>
                 <h3>Design and Development of a Desktop Laser Engraving System</h3>
-                <div class="project-org">Arizona State University</div>
-              </div>
-              <div class="date">Feb 2026 – May 2026</div>
-            </div>
-            <p>
-              Designed and developed a low-cost 2-axis desktop laser engraving system integrating mechanical,
-              electrical, and embedded control systems.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Mechanical Design</span>
-              <span class="tag">Arduino</span>
-              <span class="tag">Stepper Motors</span>
-              <span class="tag">PWM Control</span>
-              <span class="tag">Prototyping</span>
-            </div>
-            <div class="project-video">
-<video autoplay muted loop playsinline controls>
-  <source src="laser-engraver-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+           <p>
+  Designed and developed a low-cost 2-axis desktop laser engraving system integrating mechanical,
+  electrical, and embedded control systems.
+</p>
+
+<ul class="clean more-points">
+  <li>Integrated Arduino-based motion control using stepper motors, motor drivers, joystick input, and PWM laser control.</li>
+  <li>Performed system integration, wiring, calibration, testing, and troubleshooting for repeatable XY-axis motion.</li>
+</ul>
+
+<button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+
+<div class="tag-row">
+  <span class="tag">Mechanical Design</span>
+  <span class="tag">Arduino</span>
+  <span class="tag">Stepper Motors</span>
+  <span class="tag">PWM Control</span>
+  <span class="tag">Prototyping</span>
 </div>
-            <ul class="clean">
-              <li>Designed and developed a low-cost 2-axis desktop laser engraving system.</li>
-              <li>Integrated Arduino-based motion control using stepper motors, motor drivers, joystick input, and PWM laser control.</li>
-              <li>Performed system integration, wiring, calibration, testing, and troubleshooting for repeatable XY-axis motion.</li>
-            </ul>
-            <div class="project-actions">
+
+<div class="project-video">
+  <video autoplay muted loop playsinline controls>
+    <source src="laser-engraver-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="project-actions">
   <a class="project-link" href="laser-engraver-report.pdf" target="_blank">
     Learn More
   </a>
@@ -1228,30 +1248,32 @@ body::before {
             <div class="project-header">
               <div>
                 <h3>Mechanical & Thermal Analysis of FDM Infill Patterns</h3>
-                <div class="project-org">Arizona State University</div>
-              </div>
-              <div class="date">Feb 2025 – May 2025</div>
-            </div>
-            <p>
-              Analyzed the mechanical and thermal performance of FDM components using structured experiments and
-              simulation-based process evaluation.
-            </p>
-            <div class="tag-row">
-              <span class="tag">FDM 3D Printing</span>
-              <span class="tag">Mechanical Testing</span>
-              <span class="tag">Thermal Analysis</span>
-              <span class="tag">Simulation</span>
-              <span class="tag">DFM</span>
-            </div>
-          <div class="project-image">
+                       <p>
+  Analyzed the mechanical and thermal performance of FDM components using structured experiments and
+  simulation-based process evaluation.
+</p>
+
+<ul class="clean more-points">
+  <li>Designed and executed structured experiments to evaluate mechanical and thermal performance of FDM components.</li>
+  <li>Analyzed test and simulation data to optimize process parameters for improved strength and material efficiency.</li>
+  <li>Applied design-for-manufacturability principles to improve production consistency.</li>
+</ul>
+
+<button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+
+<div class="tag-row">
+  <span class="tag">FDM 3D Printing</span>
+  <span class="tag">Mechanical Testing</span>
+  <span class="tag">Thermal Analysis</span>
+  <span class="tag">Simulation</span>
+  <span class="tag">DFM</span>
+</div>
+
+<div class="project-image">
   <img src="fdm-infills.png" alt="Common 3D printing infill patterns: rectilinear, honeycomb, and cubic">
 </div>
-            <ul class="clean">
-              <li>Designed and executed structured experiments to evaluate mechanical and thermal performance of FDM components.</li>
-              <li>Analyzed test and simulation data to optimize process parameters for improved strength and material efficiency.</li>
-              <li>Applied design-for-manufacturability principles to improve production consistency.</li>
-            </ul>
-            <div class="project-actions">
+
+<div class="project-actions">
   <a class="project-link" href="fdm-infill-project.pdf" target="_blank">
     Learn More
   </a>
@@ -1262,38 +1284,39 @@ body::before {
             <div class="project-header">
               <div>
                 <h3>Fabrication of a 3D-Printed Robotic Arm for Pick-and-Place</h3>
-                <div class="project-org">Arizona State University</div>
-              </div>
-              <div class="date">Aug 2024 – Dec 2024</div>
-            </div>
-            <p>
-              Designed, fabricated, and tested a 3-DOF robotic arm for pick-and-place operations using CAD modeling,
-              assembly, and mechanical integration.
-            </p>
-            <div class="tag-row">
-              <span class="tag">SolidWorks</span>
-              <span class="tag">Robotics</span>
-              <span class="tag">Kinematic Modeling</span>
-              <span class="tag">3D Printing</span>
-              <span class="tag">Mechanical Integration</span>
-            </div>
-            <div class="project-video">
+           <p>
+  Designed, fabricated, and tested a 3-DOF robotic arm for pick-and-place operations using CAD modeling,
+  assembly, and mechanical integration.
+</p>
+
+<ul class="clean more-points">
+  <li>Designed and fabricated a 3-DOF robotic arm in SolidWorks, including part modeling and assembly design.</li>
+  <li>Supported assembly, testing, and troubleshooting to improve robotic arm performance and reliability.</li>
+  <li>Applied DFM principles to improve manufacturability, assembly efficiency, and system integration.</li>
+</ul>
+
+<button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+
+<div class="tag-row">
+  <span class="tag">SolidWorks</span>
+  <span class="tag">Robotics</span>
+  <span class="tag">Kinematic Modeling</span>
+  <span class="tag">3D Printing</span>
+  <span class="tag">Mechanical Integration</span>
+</div>
+
+<div class="project-video">
   <video autoplay muted loop playsinline controls>
     <source src="robotic-arm-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
-            <ul class="clean">
-              <li>Designed and fabricated a 3-DOF robotic arm in SolidWorks, including part modeling and assembly design.</li>
-              <li>Supported assembly, testing, and troubleshooting to improve robotic arm performance and reliability.</li>
-              <li>Applied DFM principles to improve manufacturability, assembly efficiency, and system integration.</li>
-            </ul>
         <div class="project-actions">
   <a class="project-link" href="robotic-arm-report.pdf" target="_blank">
     Learn More
   </a>
 
-  <a class="project-link secondary" href="https://github.com/yourusername/project-link" target="_blank">
+  <a class="project-link secondary" href="https://github.com/dilliKalluru4/Robotic-Arm" target="_blank">
     GitHub
   </a>
 </div>
@@ -1303,31 +1326,13 @@ body::before {
   <div class="project-header">
     <div>
       <h3>Vision-Based Autonomous Line Following and Landing using Parrot Mambo Drone</h3>
-      <div class="project-org">Arizona State University</div>
-    </div>
-    <div class="date">Jan 2025 – May 2026</div>
-  </div>
-
-  <p>
-  Developed an autonomous navigation system that enables a Parrot Mambo drone to take off, follow a colored path using real-time camera feedback, and land at a designated endpoint using MATLAB and Simulink.
+ <p>
+  Developed an autonomous navigation system that enables a Parrot Mambo drone to take off,
+  follow a colored path using real-time camera feedback, and land at a designated endpoint
+  using MATLAB and Simulink.
 </p>
 
-  <div class="tag-row">
-    <span class="tag">MATLAB</span>
-    <span class="tag">Simulink</span>
-    <span class="tag">Computer Vision</span>
-    <span class="tag">Image Processing</span>
-    <span class="tag">Control Systems</span>
-    <span class="tag">Path Planning</span>
-    <span class="tag">Parrot Mambo Drone</span>
-  </div>
-<div class="project-video">
-  <video autoplay muted loop playsinline controls>
-    <source src="drone-line-following-demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
- <ul class="clean">
+<ul class="clean more-points">
   <li>Built a Simulink-based flight control system for autonomous drone navigation.</li>
   <li>Developed a real-time image processing pipeline for RGB-colored line detection.</li>
   <li>Implemented vision-based path tracking using color thresholding, edge detection, and line segmentation.</li>
@@ -1335,6 +1340,24 @@ body::before {
   <li>Programmed autonomous takeoff and controlled landing sequence.</li>
   <li>Added keyboard override logic for testing, debugging, and manual intervention.</li>
 </ul>
+
+<button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+
+<div class="tag-row">
+  <span class="tag">MATLAB</span>
+  <span class="tag">Simulink</span>
+  <span class="tag">Control Systems</span>
+  <span class="tag">Image Processing</span>
+  <span class="tag">Path Planning</span>
+  <span class="tag">Parrot Mambo Drone</span>
+</div>
+
+<div class="project-video">
+  <video autoplay muted loop playsinline controls>
+    <source src="drone-line-following-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
   <div class="project-actions">
     <a class="project-link" href="drone-line-following-report.pdf" target="_blank">
   Learn More
@@ -1345,38 +1368,33 @@ body::before {
   <div class="project-header">
     <div>
       <h3>Evaluation of Mechanical Properties of Recycled AA6061–Copper Composite Materials</h3>
-      <div class="project-org">Jawaharlal Nehru Technological University, Anantapur</div>
-    </div>
-    <div class="date">Jan 2022 – May 2022</div>
-  </div>
 
-  <p>
-    Led a research project focused on improving the mechanical performance of recycled AA6061 aluminum by reinforcing it with copper at 2%, 4%, and 6% compositions using the stir casting method.
-  </p>
-
-  <div class="tag-row">
-    <span class="tag">Composite Materials</span>
-    <span class="tag">AA6061 Aluminum</span>
-    <span class="tag">Copper Reinforcement</span>
-    <span class="tag">Stir Casting</span>
-    <span class="tag">Mechanical Testing</span>
-    <span class="tag">Sustainable Materials</span>
-  </div>
-<div class="project-image">
-  <img src="aa6061_copper_composite_portfolio.png" alt="AA6061 copper composite mechanical properties results">
-</div>
- <ul class="clean">
-  <li>Led the evaluation of recycled AA6061–Copper composite materials for sustainable engineering applications.</li>
-  <li>Studied the effect of 2%, 4%, and 6% copper reinforcement on tensile strength, yield strength, impact strength, and hardness.</li>
-</ul>
+ <p>
+  Led a research project focused on improving the mechanical performance of recycled AA6061 aluminum by reinforcing it with copper at 2%, 4%, and 6% compositions using the stir casting method.
+</p>
 
 <ul class="clean more-points">
+  <li>Evaluated tensile strength, yield strength, impact strength, and hardness of AA6061–Copper composite samples.</li>
+  <li>Studied the effect of 2%, 4%, and 6% copper reinforcement on mechanical property improvement.</li>
   <li>Observed improved tensile and yield strength with higher copper content.</li>
   <li>Identified maximum impact strength at 6% copper reinforcement.</li>
   <li>Presented the work at the ICSMSM conference and published it in AIP Conference Proceedings.</li>
 </ul>
 
 <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+
+<div class="tag-row">
+  <span class="tag">Composite Materials</span>
+  <span class="tag">AA6061</span>
+  <span class="tag">Copper Reinforcement</span>
+  <span class="tag">Stir Casting</span>
+  <span class="tag">Mechanical Testing</span>
+  <span class="tag">Sustainable Materials</span>
+</div>
+
+<div class="project-image">
+  <img src="aa6061_copper_composite_portfolio.png" alt="AA6061 copper composite mechanical properties results">
+</div>
 
   <div class="project-actions">
   <a class="project-link" href="aa6061-copper-composite-report.pdf" target="_blank">
@@ -1486,7 +1504,7 @@ body::before {
           <article class="card">
             <h3>Master of Science in Robotics and Autonomous Systems</h3>
             <p class="company">Arizona State University · Tempe, AZ</p>
-            <p><strong>Expected Graduation:</strong> May 2026</p>
+            <p><strong>Graduated:</strong> May 2026</p>
             <p><strong>GPA:</strong> 3.80</p>
           </article>
 
@@ -1508,9 +1526,7 @@ body::before {
               <div class="section-heading" style="margin-bottom: 20px;">
                 <h2>Let’s build reliable mechanical and robotic systems.</h2>
                 <p>
-                  I’m currently exploring opportunities in manufacturing engineering, CAE/FEA, mechanical design,
-                  robotics, quality engineering, and validation. I’m interested in roles where I can apply simulation,
-                  design, manufacturing knowledge, and hands-on testing to improve real-world engineering systems.
+                  I’m focused on roles where robotics, manufacturing, and automation meet real-world production. My goal is to support teams in improving manufacturing workflows, validating systems, troubleshooting technical issues, and building reliable automation-driven solutions. I bring experience in CAD design, CAE/FEA, prototyping, testing, quality improvement, and process optimization.
                 </p>
               </div>
 
