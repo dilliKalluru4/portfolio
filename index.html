@@ -998,6 +998,58 @@ body::before {
 .project-link:hover::after {
   left: 130%;
 }
+  .cae-workflow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin: 22px 0;
+}
+
+.cae-step {
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.cae-step span {
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(56, 189, 248, 0.14);
+  color: var(--accent);
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.cae-step strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.cae-step p {
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .cae-workflow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cae-workflow {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 </head>
 
@@ -1136,15 +1188,44 @@ body::before {
           </div>
         </div>
       </div>
+<div class="cae-workflow">
+  <div class="cae-step">
+    <span>01</span>
+    <strong>Geometry Cleanup</strong>
+    <p>Prepared CAD geometry for simulation using ANSA workflows.</p>
+  </div>
 
-      <ul>
-        <li><strong>Led</strong> CAE simulations using ANSA and CAE tools for Stellantis vehicle programs, including Jeep, Chrysler, Maserati, and Peugeot, ensuring design compliance with engineering standards.</li>
-        <li><strong>Performed</strong> simulation setup, meshing, model preparation, and analysis support to evaluate component performance and identify design risks early in the development cycle.</li>
-        <li><strong>Collaborated</strong> with cross-functional engineering, design, and manufacturing teams to support product development, process optimization, and design validation activities.</li>
-        <li><strong>Mentored</strong> team members on simulation workflows, CAE best practices, and model preparation standards to improve analysis consistency and design accuracy.</li>
-        <li><strong>Generated</strong> detailed simulation reports with findings, design recommendations, and validation insights to support engineering decision-making.</li>
-        <li><strong>Worked</strong> closely with design teams to shorten the design validation cycle, reduce project turnaround time, and improve alignment with customer and engineering requirements.</li>
-      </ul>
+  <div class="cae-step">
+    <span>02</span>
+    <strong>Meshing</strong>
+    <p>Created and checked mesh quality for automotive CAE models.</p>
+  </div>
+
+  <div class="cae-step">
+    <span>03</span>
+    <strong>Model Setup</strong>
+    <p>Supported solver-ready model preparation and validation checks.</p>
+  </div>
+
+  <div class="cae-step">
+    <span>04</span>
+    <strong>Reporting</strong>
+    <p>Documented simulation findings and design recommendations.</p>
+  </div>
+</div>
+ <ul>
+  <li><strong>Led</strong> CAE simulations using ANSA and CAE tools for Stellantis vehicle programs, including Jeep, Chrysler, Maserati, and Peugeot, ensuring design compliance with engineering standards.</li>
+  <li><strong>Performed</strong> simulation setup, meshing, model preparation, and analysis support to evaluate component performance and identify design risks early in the development cycle.</li>
+  <li><strong>Collaborated</strong> with cross-functional engineering, design, and manufacturing teams to support product development, process optimization, and design validation activities.</li>
+</ul>
+
+<ul class="more-points">
+  <li><strong>Mentored</strong> team members on simulation workflows, CAE best practices, and model preparation standards to improve analysis consistency and design accuracy.</li>
+  <li><strong>Generated</strong> detailed simulation reports with findings, design recommendations, and validation insights to support engineering decision-making.</li>
+  <li><strong>Worked</strong> closely with design teams to shorten the design validation cycle, reduce project turnaround time, and improve alignment with customer and engineering requirements.</li>
+</ul>
+
+<button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
 
       <div class="experience-metrics">
         <div class="metric-box">
