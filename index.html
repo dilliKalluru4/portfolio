@@ -959,15 +959,15 @@ body::before {
   display: block;
 }
     .profile-card {
-  animation: floatCard 5s ease-in-out infinite;
+  animation: profileFloat 4s ease-in-out infinite !important;
 }
 
-@keyframes floatCard {
+@keyframes profileFloat {
   0%, 100% {
-    transform: translateY(0);
+    translate: 0 0;
   }
   50% {
-    transform: translateY(-10px);
+    translate: 0 -14px;
   }
 }
   .btn.primary,
@@ -1699,10 +1699,9 @@ body::before {
     });
   });
 
-  const revealElements = document.querySelectorAll(
-    "section, .card, .experience-card, .stat, .metric-box, .profile-card"
-  );
-
+ const revealElements = document.querySelectorAll(
+  "section, .card, .experience-card, .stat, .metric-box"
+);
   revealElements.forEach((element) => {
     element.classList.add("reveal");
   });
